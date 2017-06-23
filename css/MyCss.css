@@ -1,0 +1,66 @@
+body{
+   background: url(../img/bg8.jpg)  center no-repeat scroll ;
+   background-attachment:fixed;
+   font-size: 24px;
+   font-family: 'Dosis', sans-serif;
+}
+.new-note-content{
+    margin: 8px;
+}
+.undone-notes{
+    margin-left: 25px;
+}
+.note {
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding:10px;
+    list-style-type: none;
+    border-style: solid;
+    border-width: 1px;
+	  border-color :#09c;
+    background-color: white;
+    border-radius: 12px;
+    font-size: 15px;
+}
+.button {
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 35px;
+    list-style-type: none;
+    font-size: 15px;
+}
+#deletebtn {
+  width:50px;
+  height: 30px;
+  text-align: center;
+  padding: 6px ;
+  margin-left:3px;
+  margin-right:8px;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 10%;
+}
+#Updatebtn {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  padding: 6px ;
+  margin-left:3px;
+  margin-right:8px;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 10%;
+}
+#Donebtn {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  padding: 6px ;
+  margin-left:3px;
+  margin-right:8px;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 10%;
+}
+

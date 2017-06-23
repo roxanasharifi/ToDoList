@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ToDo List</title>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/MyCss.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
+</head>
+<body>
+  <div class="row text-center" style=" margin-top:30px">
+     <div class="col-md-12">
+          <h1 style="color:#09c">Add your task:</h1>
+     </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-md-12">
+
+
+  	<form id="new-note-form" class="new-note-form">
+        <input id="new-note-content" class="new-note-content">
+    </form>
+
+
+  </div>
+ </div>
+ 
+  <div class="row text-center">
+ 	  <div class="col-md-6">
+ 		   <h2 style="color:#09c">To Do</h2>
+       <hr style="border-color: #09c;" width="80%" />
+ 	  </div>
+ 	  <div class="col-md-6 text-center">
+ 	     <h2  style="color:#09c">Done</h2>
+       <hr style="border-color: #09c;" width="80%" />
+ 	  </div> 	
+  </div>
+
+  <div class="row text-center toDoArea">
+
+
+ 	   <div class="col-md-3">
+ 	     <ul id="undone-notes" class="undone-notes"></ul>
+  	 </div>
+
+
+ 	   <div class="col-md-3 ">
+ 	     <ul id="UndoneButton" class="buttons"></ul>
+ 	   </div>
+
+
+ 	   <div class="col-md-3">
+ 	     <ul id="done-notes" class="done-notes"></ul>
+ 	   </div>
+
+
+ 	  <div class="col-md-3">
+      <ul id="DoneButton" class="buttons"></ul>
+   	</div>
+  </div>
+  <hr style="border-color: #09c;"/>
+
+  
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/javascript.js"></script>
+</body>
+</html>
