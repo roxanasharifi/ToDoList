@@ -4,11 +4,27 @@
 	<title>ToDo List</title>
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/MyCss.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 
 </head>
 <body>
-  <div class="row text-center" style=" margin-top:30px">
+    <nav class="navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="row topnav">
+                <div class="col-md-6 col-sm-6 col-xm-6"><P style="font-size:20px;margin-top:10px;">ToDoList</P></div>
+                <div class="col-md-6 col-sm-6 col-xm-6" id="bs-example-navbar-collapse-1">
+                    <ul class="list-inline navbar-right">
+                        <li class="btn btn-lg">
+                            <a href="#about">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+<div class="container">
+  <div class="row text-center" style="margin-top:100px">
      <div class="col-md-12">
           <h1 style="color:#09c">Add your task:</h1>
      </div>
@@ -26,41 +42,30 @@
  </div>
  
   <div class="row text-center">
- 	  <div class="col-md-6">
- 		   <h2 style="color:#09c">To Do</h2>
-       <hr style="border-color: #09c;" width="80%" />
- 	  </div>
- 	  <div class="col-md-6 text-center">
- 	     <h2  style="color:#09c">Done</h2>
-       <hr style="border-color: #09c;" width="80%" />
+ 	  <div class="col-md-6 col-sm-12">
+ 		   <h2 style="color:#09c">Today</h2>
+           <hr style="border-color: #09c;" width="50%" />
+ 	       <ul id="undone-notes" class="undone-notes"></ul>
+      </div>
+
+ 	  <div class="col-md-6 col-sm-12 col-xs-12">
+ 	     <h2  style="color:#09c" width="800px">Tomorrow</h2>
+         <hr style="border-color: #09c;" width="50%" />
+ 	     <ul id="done-notes" class="done-notes"></ul>
  	  </div> 	
   </div>
 
+
   <div class="row text-center toDoArea">
-
-
- 	   <div class="col-md-3">
- 	     <ul id="undone-notes" class="undone-notes"></ul>
-  	 </div>
-
-
- 	   <div class="col-md-3 ">
- 	     <ul id="UndoneButton" class="buttons"></ul>
- 	   </div>
-
-
- 	   <div class="col-md-3">
- 	     <ul id="done-notes" class="done-notes"></ul>
- 	   </div>
-
-
- 	  <div class="col-md-3">
-      <ul id="DoneButton" class="buttons"></ul>
-   	</div>
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+          <h2 style="color:#09c">Done</h2>
+          <hr style="border-color: #09c;" width="50%" />
+          <ul id="done2-notes" class="done2-notes"></ul>
+      </div>
   </div>
-  <hr style="border-color: #09c;"/>
 
-  
+ </div>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="js/javascript.js"></script>

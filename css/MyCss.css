@@ -2,7 +2,8 @@ body{
    background: url(../img/bg8.jpg)  center no-repeat scroll ;
    background-attachment:fixed;
    font-size: 24px;
-   font-family: 'Dosis', sans-serif;
+   font-family: 'Merriweather', serif;
+   background-color:#C5CAE9;
 }
 .new-note-content{
     margin: 8px;
@@ -13,12 +14,20 @@ body{
 .note {
     width: 150px;
     margin-right: 20px;
+    margin-bottom: 23px;
+    padding:10px;
+    list-style-type: none;
+    background-color: white;
+    border-radius: 12px;
+    font-size: 15px;
+}
+.Dnote {
+    color:#BDBDBD;
+    width: 150px;
+    margin-right: 20px;
     margin-bottom: 20px;
     padding:10px;
     list-style-type: none;
-    border-style: solid;
-    border-width: 1px;
-	  border-color :#09c;
     background-color: white;
     border-radius: 12px;
     font-size: 15px;
@@ -28,37 +37,52 @@ body{
     margin-right: 20px;
     margin-bottom: 35px;
     list-style-type: none;
-    font-size: 15px;
+    font-size: 12px;
+    float: right;
+    
 }
 #deletebtn {
-  width:50px;
+
+  width: 60px;
   height: 30px;
   text-align: center;
-  padding: 6px ;
+  padding: 2px ;
   margin-left:3px;
-  margin-right:8px;
+  margin-right:2px;
   font-size: 12px;
   line-height: 1.428571429;
   border-radius: 10%;
 }
 #Updatebtn {
-  width: 50px;
+
+  width: 60px;
   height: 30px;
   text-align: center;
-  padding: 6px ;
+  padding: 2px ;
   margin-left:3px;
-  margin-right:8px;
+  margin-right:2px;
   font-size: 12px;
   line-height: 1.428571429;
   border-radius: 10%;
 }
-#Donebtn {
-  width: 50px;
+#tmrbtn {
+   width: 60px;
   height: 30px;
   text-align: center;
-  padding: 6px ;
+  padding: 2px ;
   margin-left:3px;
-  margin-right:8px;
+  margin-right:2px;
+  font-size: 9px;
+  line-height: 1.428571429;
+  border-radius: 10%;
+}
+#Donebtn {
+  width: 60px;
+  height: 30px;
+  text-align: center;
+  padding: 2px ;
+  margin-left:3px;
+  margin-right:2px;
   font-size: 12px;
   line-height: 1.428571429;
   border-radius: 10%;
